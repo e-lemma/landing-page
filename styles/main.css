@@ -4,19 +4,45 @@ body {
   padding: 0;
 }
 
-#header {
+.section {
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.bg-dark {
   background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.bg-grey {
+  background-color: #e5e7eb;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #header-logo {
-  color: #f9faf8;
   font-size: 24px;
 }
 
 #header-links {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
