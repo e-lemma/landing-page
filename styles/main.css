@@ -86,6 +86,12 @@ body {
   border-radius: 8px;
   margin-top: 8px;
   align-self: flex-start;
+  cursor: pointer;
+  transform: background-color 0.3s ease;
+}
+
+#hero-button:hover {
+  background-color: #5a9cff;
 }
 
 #hero-left-section {
@@ -204,6 +210,12 @@ body {
   padding: 6px 32px;
   border-radius: 8px;
   margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cta-left button:hover {
+  background-color: #5a9cff;
 }
 
 /* FOOTER */
