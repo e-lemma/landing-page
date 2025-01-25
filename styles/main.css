@@ -93,3 +93,44 @@ body {
   flex: 1;
   border-radius: 8px;
 }
+
+/* MIDDLE TOP */
+
+#info-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.illustration-image {
+  border: 2px solid #3882f6;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.illustration-text {
+  max-width: 100px;
+}
+
+#illustrations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.illustration {
+  color: rgb(110, 116, 124);
+  text-align: center;
+  display: flex;
+  gap: 8px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
