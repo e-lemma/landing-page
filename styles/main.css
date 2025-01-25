@@ -64,7 +64,7 @@ body {
 
 #top-section .container {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   padding: 80px 0;
   flex-wrap: wrap;
@@ -97,14 +97,20 @@ body {
 #hero-left-section {
   flex: 1;
   justify-content: center;
+  align-items: center;
 }
-#hero-image-placeholder {
-  background-color: rgb(110, 116, 124);
+#hero-image {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
   border-radius: 8px;
+  overflow: hidden;
+}
+
+#hero-image img {
+  width: 100%;
+  height: auto;
 }
 
 /* MIDDLE TOP */
